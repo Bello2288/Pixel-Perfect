@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    background-color: rgb(232, 218, 218);
+}
+
+.nav-bar {
+    margin: 0;
+    position: relative;
+    background-color: #4961c4;
+    display: flex;
+}
+
+.social-bar {
+    margin: 0;
+    position: absolute;
+    background-color: #4961c4;
+    display: flex;
+
+}
+
+.adventure-to-the-city{
+    margin-left: 80px;
+    height: 827px;
+    width: 670;
+    align-items: center;
+    border: 10px solid goldenrod;
+}
+
+.city-image {
+    background-image: url(../images/turtle.jpeg);
+    height: 442px;
+    width: 668px;
+    object-fit: cover;
+    box-sizing: content-box;
+    border: 10px solid goldenrod;
+}
+
+.picture-title {
+    border: 10px solid goldenrod;
+}
+
+.picture-title a {
+    text-align: center;
+    color: #e45a14;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px solid goldenrod;
+
+}
+
+.picture-title h2 {
+    text-align: center;
+    border: 10px solid goldenrod;
+}
+
+.box-text {
+    margin: 1% 5% 0 5%;
+    bottom: 20px;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(61, 58, 58);
+    border: 10px solid goldenrod; 
+}
+
+.cr-button {
+    position: absolute;
+    margin-left: 5%;
+    bottom: 10%;
+    width: 45px;
+    height: 23px;
+    background-color: #4961c4;
+    font-size: 8px;
+    text-align: center;
+    color: #ffffff;
+    transition: font-size 0.5s 0.5s;
+    border: 10px solid goldenrod;
+}
+
+.author {
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #20201f;
+    border: 10px solid goldenrod;
+}

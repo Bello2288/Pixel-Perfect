@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&display=swap');
 
+
 html {
     box-sizing: border-box;
 }
@@ -9,7 +10,7 @@ html {
 }
 
 * {
-    background-color: rgb(237, 226, 226);
+    background-color: rgb(239, 225, 225);
 }
 body {
     margin: 0;
@@ -20,6 +21,10 @@ body {
     height: 67;
     margin: 0;
     padding: 0;
+}
+
+.top-bar a:hover {
+    color: #e32121;
 }
 
 .nav-bar {
@@ -198,7 +203,7 @@ body {
     left: 53px;
     height: 400px;
     width: 668px;
-    background-color: #f0e8e8;
+    background-color: #f4eeee;
 }
 
 .picture-title a {
@@ -209,7 +214,7 @@ body {
     text-align: center;
     color: #e45a14;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f0e8e8;
+    background-color: #f4eeee;
 
 }
 
@@ -223,7 +228,7 @@ body {
     font-size: 103%;
     font-family: sans-serif;
     transform: scale(1,1.5);
-    background-color: #f0e8e8;
+    background-color: #f4eeee;
 }
 
 .box-text {
@@ -243,7 +248,7 @@ body {
 }
 
 .box-text a {
-    background-color: #f0e8e8;
+    background-color: #f4eeee;
 }
 
 .cr-button {
@@ -253,7 +258,7 @@ body {
     left: 276px;
     width: 153px;
     height: 34px;
-    background-color: #f0e8e8;
+    background-color: #f4eeee;
     border: 0.5px solid #e32121;
     transition: font-size 0.5s 0.5s;
 }
@@ -277,20 +282,19 @@ body {
     font-size: 13.3px;
     font-family: 'Times New Roman', Times, serif;
     color: #20201f;
-    background-color: #f0e8e8;
+    background-color: #f4eeee;
     z-index: 6;
 }
 
 .author a {
-    background-color: #f0e8e8;;
+    background-color: #f4eeee;
 }
 
 .social-attc {
     background: transparent;
     height: 59px;
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
 
 .social-attc > ul {
@@ -312,7 +316,7 @@ body {
 }
 
 .social-attc > ul > li > a {
-    background-color: #f0e8e8;
+    background-color: #f4eeee;
     text-decoration: none;
     color: #b7afaf;
 }
@@ -325,4 +329,63 @@ body {
     left: 53px;
     bottom: 90px;
 
+}
+
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  SMALL BOXES  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+.smallboxes {
+    position: static;
+    margin: 0;
+    height: 60px;
+    width: 30px;
+}
+
+.boxA {
+    margin: 0;
+    height: 60px;
+    width: 30px;
+    border-color: 5px solid red;
+    background-color: purple;
+    
+}
+
+.boxB {
+    margin: 0;
+    height: 60px;
+    width: 30px;
+    border-color: 5px solid red;
+    background-color: black;
+    
+}
+
+.boxC {
+    margin: 0;
+    height: 60px;
+    width: 30px;
+    border-color: 5px solid red;
+    background-color: yellow;
+}
+
+.boxD {
+    margin: 0;
+    height: 60px;
+    width: 30px;
+    border-color: 5px solid red;
+    background-color: green;
+}
+
+
+.page-bar {
+    position: absolute;
+    align-content: center;
+    top: 200px;
+    left: 400px;
+    margin: 0;
+    height: 60px;
+    width: 30px;
+    border-color: 5px solid red;
+    background-color: blue;
 }

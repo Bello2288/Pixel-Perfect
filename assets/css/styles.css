@@ -9,85 +9,232 @@ html {
 }
 
 * {
-    background-color: rgb(232, 218, 218);
+    background-color: rgb(237, 226, 226);
+}
+body {
+    margin: 0;
+}
+
+.top-bar {
+    position: relative;
+    height: 67;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-bar {
-    margin: 0;
+    height: 55px;
+    background-color: #f0e8e8;
+}
+
+.nav-bar > ul {
+    display: inline-block;
+    background-color: #f0e8e8;
+}
+
+.nav-bar > ul > li {
     position: relative;
-    background-color: #4961c4;
-    display: flex;
+    left: 85px;
+    top: 0.5px;
+    font-size: 10.8px;
+    margin: 0;
+    padding: 0px 9.5px;
+    display: inline-block;
+    justify-content: space-between;
+    background-color:  #f0e8e8;
+}
+
+.nav-bar > ul > li > a {
+    background-color: #f0e8e8;
 }
 
 .social-bar {
-    margin: 0;
+    background: transparent;
     position: absolute;
-    background-color: #4961c4;
-    display: flex;
-
+    height: 59px;
+    padding: 0;
+    margin: 0;
+    
 }
 
-.adventure-to-the-city{
-    margin-left: 80px;
+.social-bar > ul {
+    background: transparent;
+    display: inline-block;
+}
+
+
+.social-bar > ul > li {
+    color: #e45a14;
+    position: relative;
+    left: 968px;
+    top: -55px;
+    font-size: 10.5px;
+    margin: 0;
+    padding: 0px 5px;
+    display: inline-block;
+    background-color:  transparent;
+}
+
+.social-bar > ul > li > a {
+    background-color: #f0e8e8;
+    text-decoration: none;
+    color: #b7afaf;
+}
+
+
+.adventure-to-the-city {
+    position: relative;
+    left: 80px;
     height: 827px;
-    width: 670;
+    width: 668px;
+    border-right: 0px;
     align-items: center;
-    border: 10px solid goldenrod;
+    border: 0px;
 }
 
 .city-image {
-    background-image: url(../images/turtle.jpeg);
-    height: 442px;
-    width: 668px;
-    object-fit: cover;
+    position: relative;
+    background-image: url(../images/citylife.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    top: 45px;
+    left: 53px;
+    height: 421px;
+    width: 668px;   
     box-sizing: content-box;
-    border: 10px solid goldenrod;
 }
 
 .picture-title {
-    border: 10px solid goldenrod;
+    position: relative;
+    top: 45px;
+    left: 53px;
+    height: 400px;
+    width: 668px;
+    background-color: #f0e8e8;
 }
 
 .picture-title a {
+    position: absolute;
+    left: 314px;
+    top: 40px;
+    font-size: 10.8px;
     text-align: center;
     color: #e45a14;
     font-family: 'Times New Roman', Times, serif;
-    border: 10px solid goldenrod;
+    background-color: #f0e8e8;
 
 }
 
 .picture-title h2 {
-    text-align: center;
-    border: 10px solid goldenrod;
+    position: relative;
+    width: 225px;
+    height: 35px;
+    margin: 0px;
+    left: 228px;
+    top: 72px;
+    font-size: 103%;
+    font-family: sans-serif;
+    transform: scale(1,1.5);
+    background-color: #f0e8e8;
 }
 
 .box-text {
-    margin: 1% 5% 0 5%;
-    bottom: 20px;
-    font-size: 11px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(61, 58, 58);
-    border: 10px solid goldenrod; 
+    position: absolute;
+    top: 476px;
+    left: 52px;
+    padding: 120px 30px 20px 38px;
+    line-height: 1.75em;
+    width: 588px;
+    height: 259px;
+    padding-top: 100px;
+    font-size: 12.9px;
+    text-align: left;
+    color: #20201f;
+    font-family: sans-serif;
+    background-color: transparent;
+}
+
+.box-text a {
+    background-color: #f0e8e8;
 }
 
 .cr-button {
     position: absolute;
     margin-left: 5%;
-    bottom: 10%;
-    width: 45px;
-    height: 23px;
-    background-color: #4961c4;
-    font-size: 8px;
-    text-align: center;
-    color: #ffffff;
+    top: 719px;
+    left: 276px;
+    width: 153px;
+    height: 34px;
+    background-color: #f0e8e8;
+    border: 0.5px solid #e32121;
     transition: font-size 0.5s 0.5s;
-    border: 10px solid goldenrod;
+}
+
+.cr-button h3 {
+    position: relative;
+    background-color: transparent;
+    bottom: 2px;
+    font-size: 11.7px;
+    text-align: center;
+    text-transform: 25%;
+    color: #e32121;
+    transition: font-size 0.5s 0.5s;
 }
 
 .author {
+    position: absolute;
+    top: 807px;
+    left: 90px;
     font-style: italic;
-    font-size: 12px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13.3px;
+    font-family: 'Times New Roman', Times, serif;
     color: #20201f;
-    border: 10px solid goldenrod;
+    background-color: #f0e8e8;
+    z-index: 6;
+}
+
+.author a {
+    background-color: #f0e8e8;;
+}
+
+.social-attc {
+    background: transparent;
+    height: 59px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.social-attc > ul {
+    background: transparent;
+    display: inline-block;
+}
+
+
+.social-attc > ul > li {
+    color: #e45a14;
+    position: relative;
+    left: 517px;
+    top: -29px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0px 5px;
+    display: inline-block;
+    background-color:  transparent;
+}
+
+.social-attc > ul > li > a {
+    background-color: #f0e8e8;
+    text-decoration: none;
+    color: #b7afaf;
+}
+
+.attc-section {
+    position: relative;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-top: 1px solid #b7afaf;
+    left: 53px;
+    bottom: 90px;
+
 }

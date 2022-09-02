@@ -104,6 +104,43 @@ body {
     box-sizing: content-box;
 }
 
+
+.piggies-image {
+    position: relative;
+    background-image: url(../images/piggies.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    top: 45px;
+    left: 53px;
+    height: 421px;
+    width: 668px;   
+    box-sizing: content-box;
+}
+
+.kids-image {
+    position: relative;
+    background-image: url(../images/kids.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    top: 45px;
+    left: 53px;
+    height: 421px;
+    width: 668px;   
+    box-sizing: content-box;
+}
+
+.eagle-image {
+    position: relative;
+    background-image: url(../images/eagle.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    top: 45px;
+    left: 53px;
+    height: 421px;
+    width: 668px;   
+    box-sizing: content-box;
+}
+
 .picture-title {
     position: relative;
     top: 45px;

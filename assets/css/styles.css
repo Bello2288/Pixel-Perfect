@@ -81,6 +81,11 @@ body {
     color: #b7afaf;
 }
 
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+/\/\/\/\/\/\/\/\/\/\/  ADVENTURE TO THE CITY  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+
 
 .adventure-to-the-city {
     position: relative;
@@ -104,6 +109,21 @@ body {
     box-sizing: content-box;
 }
 
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+/\/\/\/\/\/\/\/\/\/\/  SEARCHING FOR AMY  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+
+.searching-for-amy {
+    position: relative;
+    top: 38px;
+    left: 80px;
+    height: 827px;
+    width: 668px;
+    border-right: 0px;
+    align-items: center;
+    border: 0px;
+}
 
 .piggies-image {
     position: relative;
@@ -115,6 +135,22 @@ body {
     height: 421px;
     width: 668px;   
     box-sizing: content-box;
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+/\/\/\/\/\/\/\/\/\/\/  THE RAISEN AT THE END OF THE HOT DOG  \/\/\/\/\/\/\/\/\/\/\/\/
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+
+.raisen {
+    position: relative;
+    top: 38px;
+    left: 80px;
+    height: 827px;
+    width: 668px;
+    border-right: 0px;
+    align-items: center;
+    border: 0px;
 }
 
 .kids-image {

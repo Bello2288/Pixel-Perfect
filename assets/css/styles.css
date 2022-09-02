@@ -26,6 +26,12 @@ body {
 .top-bar a:hover {
     color: #e32121;
 }
+.author a:hover {
+    color: #e32121;
+}
+.social-attc a:hover {
+    color: #e32121;
+}
 
 .nav-bar {
     height: 55px;
@@ -50,7 +56,10 @@ body {
 }
 
 .nav-bar > ul > li > a {
+    color: #20201f;
     background-color: #f9f7f7;
+    text-decoration: none;
+
 }
 
 .social-bar {
@@ -197,6 +206,11 @@ body {
     box-sizing: content-box;
 }
 
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\  
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+
 .picture-title {
     position: relative;
     top: 45px;
@@ -206,16 +220,15 @@ body {
     background-color: #f4eeee;
 }
 
-.picture-title a {
+.picture-title p {
+    background-color: #f4eeee;
     position: absolute;
-    left: 314px;
-    top: 40px;
-    font-size: 10.8px;
+    left: 313px;
+    top: 30px;
+    font-size: 10.2px;
     text-align: center;
     color: #e45a14;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f4eeee;
-
+    font-family: sans-serif    
 }
 
 .picture-title h2 {
@@ -251,7 +264,7 @@ body {
     background-color: #f4eeee;
 }
 
-.cr-button {
+.button {
     position: absolute;
     margin-left: 5%;
     top: 719px;
@@ -261,33 +274,36 @@ body {
     background-color: #f4eeee;
     border: 0.5px solid #e32121;
     transition: font-size 0.5s 0.5s;
-}
-
-.cr-button h3 {
-    position: relative;
-    background-color: transparent;
-    bottom: 2px;
+    color: #e32121;
     font-size: 11.7px;
     text-align: center;
-    text-transform: 25%;
-    color: #e32121;
-    transition: font-size 0.5s 0.5s;
 }
+
 
 .author {
     position: absolute;
-    top: 807px;
-    left: 90px;
+    display: flex;
+    top: 795px;
+    left: 88px;
     font-style: italic;
-    font-size: 13.3px;
+    font-size: 12.6px;
     font-family: 'Times New Roman', Times, serif;
     color: #20201f;
     background-color: #f4eeee;
     z-index: 6;
 }
 
-.author a {
+.author p {
     background-color: #f4eeee;
+}
+
+.author a {
+    position: relative;
+    top: 13px;
+    padding: 0px 3px 0px 3px;
+    background-color: #f4eeee;
+    color: #20201f;
+    text-decoration: none;
 }
 
 .social-attc {
@@ -328,64 +344,4 @@ body {
     border-top: 1px solid #b7afaf;
     left: 53px;
     bottom: 90px;
-
-}
-
-
-/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  SMALL BOXES  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
-
-.smallboxes {
-    position: static;
-    margin: 0;
-    height: 60px;
-    width: 30px;
-}
-
-.boxA {
-    margin: 0;
-    height: 60px;
-    width: 30px;
-    border-color: 5px solid red;
-    background-color: purple;
-    
-}
-
-.boxB {
-    margin: 0;
-    height: 60px;
-    width: 30px;
-    border-color: 5px solid red;
-    background-color: black;
-    
-}
-
-.boxC {
-    margin: 0;
-    height: 60px;
-    width: 30px;
-    border-color: 5px solid red;
-    background-color: yellow;
-}
-
-.boxD {
-    margin: 0;
-    height: 60px;
-    width: 30px;
-    border-color: 5px solid red;
-    background-color: green;
-}
-
-
-.page-bar {
-    position: absolute;
-    align-content: center;
-    top: 200px;
-    left: 400px;
-    margin: 0;
-    height: 60px;
-    width: 30px;
-    border-color: 5px solid red;
-    background-color: blue;
 }

@@ -24,12 +24,12 @@ body {
 
 .nav-bar {
     height: 55px;
-    background-color: #f0e8e8;
+    background-color: #f9f7f7;
 }
 
 .nav-bar > ul {
     display: inline-block;
-    background-color: #f0e8e8;
+    background-color: #f9f7f7;
 }
 
 .nav-bar > ul > li {
@@ -41,11 +41,11 @@ body {
     padding: 0px 9.5px;
     display: inline-block;
     justify-content: space-between;
-    background-color:  #f0e8e8;
+    background-color:  #f9f7f7;
 }
 
 .nav-bar > ul > li > a {
-    background-color: #f0e8e8;
+    background-color: #f9f7f7;
 }
 
 .social-bar {
@@ -76,7 +76,7 @@ body {
 }
 
 .social-bar > ul > li > a {
-    background-color: #f0e8e8;
+    background-color: #f9f7f7;
     text-decoration: none;
     color: #b7afaf;
 }
@@ -132,7 +132,7 @@ body {
     background-size: cover;
     top: 45px;
     left: 53px;
-    height: 421px;
+    height: 423px;
     width: 668px;   
     box-sizing: content-box;
 }
@@ -144,7 +144,7 @@ body {
 
 .raisen {
     position: relative;
-    top: 38px;
+    top: 78px;
     left: 80px;
     height: 827px;
     width: 668px;
@@ -160,9 +160,24 @@ body {
     background-size: cover;
     top: 45px;
     left: 53px;
-    height: 421px;
+    height: 445px;
     width: 668px;   
     box-sizing: content-box;
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+/\/\/\/\/\/\/\/\/\/\/  AMERICA THE BEAUTIFUL  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+.america-the-beautiful {
+    position: relative;
+    top: 118px;
+    left: 80px;
+    height: 827px;
+    width: 668px;
+    border-right: 0px;
+    align-items: center;
+    border: 0px;
 }
 
 .eagle-image {
@@ -170,9 +185,9 @@ body {
     background-image: url(../images/eagle.jpeg);
     background-position: 50% 50%;
     background-size: cover;
-    top: 45px;
+    top: 67px;
     left: 53px;
-    height: 421px;
+    height: 444px;
     width: 668px;   
     box-sizing: content-box;
 }

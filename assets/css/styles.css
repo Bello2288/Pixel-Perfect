@@ -67,6 +67,7 @@ body {
     display: inline-block;
     justify-content: space-between;
     background-color:  #fcfafa;
+    font-family: "Lato";
 }
 
 .nav-bar > ul > li > a {
@@ -177,9 +178,9 @@ body {
     /* text-decoration: none; */
 }
 
-.picture-title h3:hover {
+/* .picture-title h3:hover {
     color: #e32121; 
-}
+} */
 
 .sa-social-attc {
     position: relative;
@@ -261,12 +262,12 @@ body {
     /* text-decoration: none; */
 }
 
-.picture-title h2:hover {
+/* .picture-title h2:hover {
     color: #e32121; 
 }
 .picture-title h1:hover {
     color: #e32121; 
-}
+} */
 
 .raisen-box-text {
     position: absolute;
@@ -468,10 +469,13 @@ body {
     /* text-decoration: none; */
 }
 
-.picture-title h1:hover {
+h1:hover {
     color: #e32121; 
 }
-.picture-title h2:hover {
+h2:hover {
+    color: #e32121;
+}
+h3:hover {
     color: #e32121;
 }
 
@@ -668,13 +672,16 @@ body {
 .instagram-box {
     position: relative;
     display: flex;
-    padding-left: 20px;
+    padding-left: 18px;
+    right: 6px;
     margin: 0;
     height: 70px;
     width: 100%;
     background-color:  #fcfafa;
     text-align: center;
     justify-content: center;
+    font-family: "Oswald";
+    font-size: 15px;
 }
 .instagram-box p {
     margin-top: 25px;
@@ -794,7 +801,7 @@ body {
     background-position: 50% 50%;
     background-size: cover;
     height: 160px;
-    width: 146px;   
+    width: 160px;   
     box-sizing: content-box;
     backface-visibility: hidden;
     opacity: 1;
